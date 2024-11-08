@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>md converter for article</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>markdown converter</h1>
+    <!-- 記事入力欄 -->
+    <textarea id="input" placeholder="paste your markdown article"></textarea>
+    <div id="article_button">
+        <button id="github">GitHub</button>
+        <button id="qiita">Qiita</button>
+        <button id="zenn">Zenn</button>
+        <button id="clear">clear</button>
+    </div>
+    <!-- 変換結果 -->
+    <textarea id="output" readonly></textarea>
+    <div id="copy">
+        <button id="copy-button">copy</button>
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>
