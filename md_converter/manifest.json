@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "md_converter for article",
+  "version": "1.0.0",
+  "description": "convert github markdown to zenn markdown or qiita markdown",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "action": {
+    "default_title": "md_converter Actions Title",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "options_page": "options.html"
+}
