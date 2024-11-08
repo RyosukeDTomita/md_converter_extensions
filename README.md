@@ -47,7 +47,7 @@ hi
 ## ENVIRONMENT
 
 - Google Chrome
-- Firefox: WIP(not test)
+- Firefox
 
 ---
 
@@ -64,9 +64,15 @@ hi
 
 ## PREPARING
 
+### Google Chrome
+
 - Go to [chrome://extensions/](chrome://extensions/) in Google Chrome and enable `Developer mode`.
 - Click `Load unpacked` and select the directory where the extension is located.
 
+### Firefox
+
+- Go to [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox) in Firefox.
+- Click `Load temporary Add-on` and select `manifest.json`
 ---
 
 ## References
